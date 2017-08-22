@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body copyright="All data copyright CyRide 2017.">
+    <predictions agencyTitle="CyRide" routeTitle="3A Blue South" routeTag="832" stopTitle="University Village Laundry" stopTag="1049" dirTitleBecauseNoPredictions="To Kildee"></predictions>
+    <predictions agencyTitle="CyRide" routeTitle="3 Blue South" routeTag="831" stopTitle="University Village Laundry" stopTag="1049">
+        <direction title="South 5th/South Duff">
+            <prediction epochTime="1503352511150" seconds="183" minutes="3" isDeparture="false" dirTag="831_0_var0" vehicle="108" block="1005" tripTag="13081" />
+            <prediction epochTime="1503353412107" seconds="1084" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="831_0_var0" vehicle="502" block="1021" tripTag="13083" />
+            <prediction epochTime="1503354312107" seconds="1984" minutes="33" isDeparture="false" affectedByLayover="true" dirTag="831_0_var0" vehicle="432" block="1022" tripTag="13085" />
+            <prediction epochTime="1503355212107" seconds="2884" minutes="48" isDeparture="false" affectedByLayover="true" dirTag="831_0_var0" vehicle="1115" block="1014" tripTag="13087" />
+            <prediction epochTime="1503356112107" seconds="3784" minutes="63" isDeparture="false" affectedByLayover="true" dirTag="831_0_var0" vehicle="1116" block="1004" tripTag="13089" />
+        </direction>
+    </predictions>
+</body>
