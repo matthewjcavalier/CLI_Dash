@@ -3,7 +3,7 @@ import busReqParser as parser
 
 baseUrl = "http://webservices.nextbus.com/service/publicXMLFeed?command="
 
-def getNextBus(agency, routeTag, stopId):
+def getNextBusPredictions(agency, routeTag, stopId):
     url = baseUrl + "predictions&a="+agency+"&stopId="+stopId
     response = urllib.request.urlopen(url).read()
     return parser.parsePrediciton(response)
